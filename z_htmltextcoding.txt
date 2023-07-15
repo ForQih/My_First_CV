@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Faqih Al Suman CV</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<!--Main sheet-->
+	<div class="main">
+
+		<!--Left Side-->
+		<div class="left">
+			<div class="improve">
+				<div class="pic">
+					<img src="/profilpic.jpg">
+        </div>
+      </div>
+      <div class="bottom">
+
+        <!--contact-->
+        <div class="item contact">
+          <div id="cotem">
+            <div class="title">CONTACT</div>
+              <div id="temco">
+                <div class="subtitle">Whatsapp<span class="pu1">:<a class="color" href="https://wa.me/qr/XONXEOYS6S4WO1" target="_blank"> +62-823-2823-7955</a></sapn></div>
+                <div class="subtitle">Email<span class="pu2">:<a class="color" href="mailto:aqilfaqih3@gmail.com"> aqilfaqih3@gmail.com</a></sapn></div>
+                <div class="subtitle">Instagram<span class="pu3">:<a class="color"  href="https://www.instagram.com/invites/contact/?i=1l7l42mn6p6jf&utm_content=2kdm208" target="_blank"> aqilfaqih_</a></span></div>
+                <div class="subtitle">FaceBook<span class="pu4">:<a class="color" href="https://www.facebook.com/Aqil.Faqih.The.0ne" target="_blank"> Aqil Faqih</a></sapn></div>
+              </div>
+          </div>
+        </div> 
+         
+        <!--skills-->       
+        <div class="item skills">
+          <div class="title">SKILLS</div>
+            <div class="info_skills">
+              <ul class="ul">
+                <li class="info">Ms. Office<span class="pi1">: Intermediate</span></li>
+                <li class="info">Canva<span class="pi2">: Intermediate</span></li>
+                <li class="info">Html<span class="pi3">: Intermediate</span></li>
+                <li class="info">CSS<span class="pi4">: Beginner</span></li>                
+                <li class="info">C<span class="pi5">: Beginner</span></li>
+              </ul>
+            </div>
+        </div>
+
+        <!--languages-->
+        <div class="item language">
+          <div class="title">LANGUAGES</div>
+            <div id="langtem">
+              <div class="info_skills">Indonesian<span class="lang1">: Native Speaker</span>
+              </br>English<span class="lang2">: Intermediate</span>
+              </div>
+            </div>
+        </div>         
+      </div>  
+    </div>
+
+
+<!--Right Side-->
+    <div class="right">
+      <div class="item namerole">
+        <div class="name">FAQIH AL SUMAN</div>
+        <div class="role">WEB DEVELOPER</div>
+      </div>
+
+      <!--about me-->
+      <div class="item about">
+        <div class="title">ABOUT ME <img src="/profile.png"></div>
+          <div class="info">Being a student in President University and majoring in Information Technology, I really interested in how website or application work. I have a good intention on problem solving and passionate on doing something that have to be finished before do another thing, especially about technology.</div>
+        </div>
+
+      <!--education-->
+      <div class="item education">
+        <div class="title">EDUCATION <img src="/education.png"></div>
+          <div class="info">
+            <p class="p1">2021 - 2024 <span>PRESIDENT UNIVERSITY</span></p>
+            <p class="p2">Bachelor’s degree in Information Technology, Faculty of Computer Science</p>
+            <p class="pz">2018 - 2021 <span>SHS 1 BAUBAU</span></p>
+            <p class="p2">Science major student</p>
+          </div>
+      </div>
+      
+      <!--organization and event-->
+      <div class="item ore">
+        <div class="title">ORGANIZATION AND EVENT <img src="/ore.png"></div>
+          <div class="info">
+            <p class="pw">2019 - 2021 <span>ISLAMIC ORGANIZATION SHS 1 BAUBAU</span></p>
+            <p class="p2">One of the leaders and successfully organized all the events held</p> 
+            <p class="p1">2018 - 2020 <span>SHS 1 BAUBAU OLYMPIC TEAM</span></p>
+            <p class="p2">Member and tutor of geography olympiad team</p>            
+            <p class="px">2019 <span>THE SPIRIT OF ISLAMIC YOUTH HIJRAH</span></p>
+            <p class="p2">Active member in one of the biggest islamic fest in Baubau City</p>
+          </div>
+      </div>
+
+      <!--achievement-->
+      <div class="item achievement">
+        <div class="title">ACHIEVEMENT <img src="/trophy.png"></div>
+          <div class="info">
+            <p class="py">2021 <span>GENERAL CHAMPION SHS 1 BAUBAU</span></p>
+            <p class="p2">Top 10 student of Senior High School 1 Baubau with highest academic score</p>
+            <p class="p1">2020 <span>CITY LEVEL SCIENCE COMPETITION</span></p>
+            <p class="p2">1th winner of the Baubau City Geography Olympiad </p>
+            <p class="py">2019 <span>CITY LEVEL SCIENCE COMPETITION</span></p>
+            <p class="p2">3rd winner of the Baubau City Geography Olympiad</p>
+          </div>
+      </div>
+    </div>
+	</div>
+
+	<script src="script.js">
+	</script>
+</body>
+
+</html>

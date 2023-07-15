@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin: 0px; 
+  padding: 0px; 
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background: #c4c4c4;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*=====================|main side|======================*/
+.main {
+  display: flex;
+  width: 800px;
+  margin: 50px auto;
+  background: white;
+  padding: 10px;
+}
+.main .title {
+  color: fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom:10px;
+  letter-spacing: 4px;
+}
+
+/*=====================|left side|=====================*/
+.main .left {
+  width: 37%;
+  background: #023047;
+  color: white;
+}
+.main .left .bottom {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.main .left .item .title {
+  padding-left: 10px;
+  background-color: #fb8500;
+  border-radius: 1%;
+  border: 1px solid;
+  box-shadow: -6px 7px 9px 5px #202020;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  margin-right: -15px;
+}
+
+/*picture side*/
+.main .left .improve{
+  padding-left: 10px;
+  margin-right: -15px;
+  padding-bottom: 25px;
+}
+.main .left .pic {
+  width: 92%;
+  padding-left: 10px;
+  background-color: #fb8500;
+  border: 1px solid;
+  box-shadow: -6px 7px 9px 5px #202020;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  margin-right: -15px;
+}
+.main .left .pic img {
+  width: 100%;
+  display: block;
+}
+
+/*left things*/
+.main .title .bottom {
+  padding: 20px 30px;
+}
+
+/*contact*/
+.main .left .contact .subtitle {
+  padding-bottom: 6px;
+}
+#cotem {
+  padding-bottom: 20px; 
+}
+#temco {
+  padding-top: 20px;
+}
+.color {
+  color: yellow;
+  text-decoration: none;
+}
+.pu1 {
+  padding-left: 3px;
+}
+.pu2 {
+  padding-left: 36px;
+}
+.pu3 {
+  padding-left: 3px;
+}
+.pu4 {
+  padding-left: 7px;
+}
+
+/*skills*/
+.main .left .skills {
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.info_skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ul {
+  list-style-type: none;
+}
+
+.pi1 {
+  padding-left: 36px;
+}
+.pi2 {
+  padding-left: 62px;
+}
+.pi3 {
+  padding-left: 70px;
+}
+.pi4 {
+  padding-left: 78px;
+}
+.pi5 {
+  padding-left: 95px;
+}
+
+/*languages*/
+#langtem {
+  padding-bottom: 10px;
+}
+.lang1 {
+  padding-left: 25px;
+}
+.lang2 {
+  padding-left: 51px;
+}
+
+/*=====================|right side|======================*/
+.main .right {
+  width: 65%;
+  padding: 20px 40px;
+}
+
+/*name and role*/
+.main .namerole .name{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  letter-spacing: 4px;
+}
+.main .right .namerole .name {
+  color: #000;
+  font-size: 32px;
+  padding-left: 20px;
+}
+.main .right .namerole .role {
+  color: #000;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+/*right things*/
+.main .right .item .title {
+  color: #26252d;
+}
+
+/*about*/
+.main .about {
+  padding: 20px ;
+  border-top: 2px solid #000;
+  text-align: justify;
+}
+.main .about .title {
+  font-weight: bolder;
+}
+
+/*general format for sentence in education - achievement*/
+.p1 {
+  font-weight: bold;
+}
+.p1 span {
+  padding-left: 20px;
+  color: ;
+}
+.p2 {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/*education*/
+.main .education {
+  padding: 20px ;
+  border-top: 2px solid #000;
+  font-weight: bolder;
+}
+.pz {
+  font-weight: bold;
+}
+.pz span {
+  padding-left: 23px;
+  color: ;
+}
+
+/*organization and events*/
+.main .ore {
+  padding: 20px ;
+  border-top: 2px solid #000;
+  font-weight: bolder;
+}
+.px {
+  font-weight: bold;
+}
+.px span {
+  padding-left: 67px;
+}
+.pw {
+  font-weight: bold;
+}
+.pw span {
+  padding-left: 26px
+}
+
+/*achievement*/
+.main .achievement {
+  padding: 20px ;
+  border-top: 2px solid #000;
+  font-weight: bolder;
+}
+.py {
+  font-weight: bold;
+}
+.py span {
+  padding-left: 25px;
+  color: ;
+}
+
+/*=====================|logo image|=====================*/
+.main .right .about img {
+  width: 17px;
+  height: 17px;
+}
+.main .right .ore img {
+  width: 14px;
+  height: 14px;
+}
+.main .right .education img {
+  width: 17px;
+  height: 17px;
+}
+.main .right .achievement img {
+  width: 15px;
+  height: 15px;
+}
+/*======================================================*/
